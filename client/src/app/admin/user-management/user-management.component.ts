@@ -69,8 +69,8 @@ export class UserManagementComponent implements OnInit {
         role.checked = false;
         roles.push(role);
       }
-      return roles;
     })
+    return roles;
   }
 
 }
